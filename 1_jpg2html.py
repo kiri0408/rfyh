@@ -16,6 +16,26 @@
  - 白抜きの欄（文字入力箇所）は入力できるようにしてください。
  - タブはマウスオーバーで薄い黄色になるようにしてください。
 
+project-root/
+├── index.html            # トップページ
+├── about.html            # サブページ例
+├── contact.html
+│
+├── assets/               # 静的ファイル置き場（まとめて管理）
+│   ├── css/
+│   │   └── style.css     # 全体のスタイル
+│   │
+│   ├── js/
+│   │   └── main.js       # メインのスクリプト
+│   │
+│   ├── img/              # 画像（png, jpg, svg, webp など）
+│   │   ├── logo.png
+│   │   └── hero.jpg
+│   │
+│   └── fonts/            # Webフォント（必要なら）
+│       └── ...
+│
+└── favicon.ico           # ファビコン（任意）
 
 """
 
